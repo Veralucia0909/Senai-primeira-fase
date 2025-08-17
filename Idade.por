@@ -1,9 +1,12 @@
 programa {
   funcao inicio() {
-   inteiro idadeDoUsuario
-   idadeDoUsuario = 25
-   escreva("Idade: " + idadeDoUsuario)
-   idadeDoUsuario = 26
-   escreva("\nnova idade " +  idadeDoUsuario)
+      
+    inteiro idade=40 //variável do tipo inteiro
+    cadeia nome="Vera Lúcia"
+    // idade=44
+    escreva("Meu nome é " + nome + " e minha idade é " + idade + " anos")
+  }
+}
+    
   }
 }
