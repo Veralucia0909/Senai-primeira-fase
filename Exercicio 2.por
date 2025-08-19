@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    //   real salario, salario_diario 
+  real salario, salario_diario 
   // inteiro dias
   // escreva("Digite seu salário: R$")
   // leia(salario)
@@ -33,14 +33,30 @@ programa {
   // media = (n1 + n2 + n3 + n4) / 4
   // escreva("Media final:" + media)
 
-  real pontos, vitorias, empates
-  escreva("vitoria:")
-  leia(vitoria)
-  escreva("empates:")
-  leia(empates)
-  resultado 
+  // inteiro pontos, vitorias, empates
+  // escreva("Digite o numero de vitorias: ")
+  // leia(vitorias)
+  // escreva("Digite o numero de empates: ")
+  // leia(empates)
+  // pontos = vitorias* 3 + empates
+  // escreva("\nPontuação total: " + pontos)
 
 
-   
+ 
+  // real conta, café, coxinha, hall, doceDeLeite
+  // conta = 2 * 5 + 8 + 3 + 6
+  // escreva("\n: " + conta)  
+
+  real critico, dano_critico
+  escreva("digite o dano: ")
+  leia(dano)
+  dano_critico:= dano * 1.5
+  escreva("O dano crítico é: ", dano_critico)
+
+  real critico, dano_critico, bonus
+  escreva("digite o dano: ")
+  leia(dano)
+  dano_critico:= dano * 1.5
+  escreva("O dano crítico é: ", dano_critico)
   }
 }
