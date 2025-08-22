@@ -41,15 +41,47 @@ programa {
 
   // 3.6 Calcula a media
 
-      real numero_1, numero_2, media
-      escreva("Primeiro numero: ")
-      leia(numero_1)
-      escreva("Segundo numero: ")
-      leia(numero_2)
-      media = (numero_1+numero_2)/2
-      escreva("A media é: " + media) 
+      // real numero_1, numero_2, media
+      // escreva("Primeiro numero: ")
+      // leia(numero_1)
+      // escreva("Segundo numero: ")
+      // leia(numero_2)
+      // media = (numero_1+numero_2)/2
+      // escreva("A media é: " + media) 
+    
 
-   
+    // 3.8 Corrida de uber
+     
+    real Corrida_1, corrida_2, corrida_3, corrida_4, corrida_5, ganho, escreval
+    escreva("Primeira corrida: ")
+    leia(Corrida_1)
+    escreva("Segunda corrida: ")
+    leia(corrida_2)
+    escreva("Terceira corrida: ")
+    leia(corrida_3)
+    escreva("Quarta corrida: ")
+    leia(corrida_4)
+    escreva("Quinta corrida: ")
+    leia(corrida_5)
+    ganho = (Corrida_1+corrida_2+corrida_3+corrida_4+corrida_5)
+    escreva("Ganho Final: " + ganho)
+
+    // 3.9 Corrida de uber com 25%
+
+   real Corrida_1, corrida_2, corrida_3, corrida_4, corrida_5, ganho
+    escreva("Primeira corrida: ")
+    leia(Corrida_1)
+    escreva("Segunda corrida: ")
+    leia(corrida_2)
+    escreva("Terceira corrida: ")
+    leia(corrida_3)
+    escreva("Quarta corrida: ")
+    leia(corrida_4)
+    escreva("Quinta corrida: ")
+    leia(corrida_5)
+    ganho = (Corrida_1 * 0.75) + (corrida_2 * 0.75) +(corrida_3* 0.75) +(corrida_4* 0.75)+(corrida_5* 0.75)
+    escreval("Ganho:  " +  ganho)
+    
  
   }
 }
