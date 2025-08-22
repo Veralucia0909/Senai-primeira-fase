@@ -133,12 +133,13 @@ programa {
 
 
     real cafe_per_capita, cafe4, alunos 
-    escreva("\nDigite quantos cafés consumido: ")
+    escreva("\nDigite quantos litros de cafés consumido: ")
     leia(cafe4)
     escreva("Quantos alunos tomaram café: ")
     leia(alunos)
     cafe_per_capita = cafe4/alunos
-    escreva("A quantidade de cafés por pessoa foi: " + cafe_per_capita)
+    escreva("Quantidade de cafés por pessoa foi: " + cafe_per_capita + " litros")
+
 
 
 
