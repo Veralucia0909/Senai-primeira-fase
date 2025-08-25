@@ -1,9 +1,9 @@
 programa {
   funcao inicio() {
 
-    // BEE 1005 - media 1
+    // BEE 1005 - Média 1
 
-    // real A, B, Media
+    // real A, B, Média
     // escreva("Primeira nota: ")
     // leia(A)
     // escreva("Segunda nota: ")
@@ -11,9 +11,9 @@ programa {
     // Media = (A * 3.5 + B * 7.5) / 11.0
     // escreva("A Media final é = " + Media )
 
-    // BEE 1006 - media 2
+    // BEE 1006 - Média 2
 
-    // real A,B,C Media
+    // real A,B,C Média
     // escreva("Primeira nota: ")
     // leia(A)
     // escreva("Segunda nota: ")
@@ -25,7 +25,7 @@ programa {
 
   
     
-   // BEE 1008 - salario
+   // BEE 1008 - Salário
 
 // inteiro numero, horas, valor
 // real salario, valorHora
@@ -41,7 +41,7 @@ programa {
 // escreva("salario R$ " + salario, ",00") 
 
     
-// BEE 1009 Salario com bonus 15%
+// BEE 1009 Salário com bonus 15%
 
 // real salario, vendas, comissao
 // cadeia nomeSobrenome
