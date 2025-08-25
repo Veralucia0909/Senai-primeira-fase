@@ -41,7 +41,7 @@ programa {
    escreva ("Digite o segundo numero: ")
    leia(num2)
    soma = num1*num1 + num2*num2
-   escreva("O Resultado é: " + soma) 
+   escreva("O Resultado final é: " + soma) 
 
    3.6 Calcular o quadrado
 
