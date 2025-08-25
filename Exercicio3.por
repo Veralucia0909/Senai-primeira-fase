@@ -43,6 +43,14 @@ programa {
    soma = num1*num1 + num2*num2
    escreva("O Resultado é: " + soma) 
 
+   3.6 Calcular o quadrado
+
+    inteiro numero, Soma
+    escreva("Qual o numero: ")
+    leia(numero)
+    Soma = numero * numero
+    escreva("O quadrado é: " + Soma)
+
 
   3.7 Calcular a media
 
