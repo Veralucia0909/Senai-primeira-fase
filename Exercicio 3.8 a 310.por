@@ -2,18 +2,20 @@ programa {
   funcao inicio() {
      3.8  Calcular ganho de cincos corridas 
 
-    real corrida1, corrida2, corrida3, corrida4, corrida5, ganho, soma
-    escreva("Digite o valor da primeira corrida: ")
-    leia(corrida1)
-    escreva("Digite o valor da segunda corrida: ")
-    leia(corrida2)
-    escreva("Digite o valor da terceira corrida: ")
-    leia(corrida3)
-    escreva("Digite o valor da quarta corrida: ")
-    leia(corrida4)
-    escreva("Digite o valor da quinta corrida: ")
-    leia(corrida5)
-    soma = corrida1+corrida2+corrida3+corrida4+corrida5
+    real corre_1, corre_2, corre_3, corre_4, corre_5, ganho, soma
+    escreva("Digite o valor do primeiro corre: R$ ")
+    leia(corre_1)
+    escreva("Digite o valor da segundo corre: R$ ")
+    leia(corre_2)
+    escreva("Digite o valor do terceiro corre: R$ ")
+    leia(corre_3)
+    escreva("Digite o valor do quarto corre: R$ ")
+    leia(corre_4)
+    escreva("Digite o valor do quinto corrida: R$ ")
+    leia(corre_5)
+    soma = corre_1+corre_2+corre_3+corre_4+corre_5
+    escreva("O valor do ganho é: " + soma)
+    soma = corre_1+corre_2+corre_3+corre_4+corre_5
     escreva("O valor do ganho é: " + soma)
 
 
