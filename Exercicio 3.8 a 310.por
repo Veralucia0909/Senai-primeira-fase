@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-     3.8  Calcular ganho de cincos corridas 
+     3.8  Calcular ganho de cincos corre 
 
     real corre_1, corre_2, corre_3, corre_4, corre_5, ganho, soma
     escreva("Digite o valor do primeiro corre: R$ ")
@@ -11,12 +11,11 @@ programa {
     leia(corre_3)
     escreva("Digite o valor do quarto corre: R$ ")
     leia(corre_4)
-    escreva("Digite o valor do quinto corrida: R$ ")
+    escreva("Digite o valor do quinto corre: R$ ")
     leia(corre_5)
     soma = corre_1+corre_2+corre_3+corre_4+corre_5
     escreva("O valor do ganho é: " + soma)
-    soma = corre_1+corre_2+corre_3+corre_4+corre_5
-    escreva("O valor do ganho é: " + soma)
+    
 
 
 
