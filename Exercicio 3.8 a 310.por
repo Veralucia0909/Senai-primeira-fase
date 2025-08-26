@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-     3.8 Calcular ganho de cincos corridas 
+     3.8  Calcular ganho de cincos corridas 
 
     inteiro corrida1, corrida2, corrida3, corrida4, corrida5, ganho, soma
     escreva("Digite o valor da primeira corrida: ")
