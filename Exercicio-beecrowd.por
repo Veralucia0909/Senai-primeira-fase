@@ -86,7 +86,7 @@ programa {
     // escreva("Media: " + media + " Km/L")
 
     // BEE 1018 Cedulas
-inteiro valor, notas100, notas50, notas20, notas10, notas5, notas2, notas1, quantidades
+  inteiro valor, notas100, notas50, notas20, notas10, notas5, notas2, notas1, quantidades
   escreva("Digite o valor: ")
   leia(valor)
   notas100 = valor/100
@@ -110,13 +110,6 @@ inteiro valor, notas100, notas50, notas20, notas10, notas5, notas2, notas1, quan
   notas1 = valor/1
   valor = valor % 1
   escreva(notas1 , " Quantidade Notas de 1 ", "\n")
-    
-    
-
-
-    
-
-
-    
+      
   }
 }
