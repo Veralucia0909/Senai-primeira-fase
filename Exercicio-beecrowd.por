@@ -86,26 +86,30 @@ programa {
     // escreva("Media: " + media + " Km/L")
 
     // BEE 1018 Cedulas
-    inteiro N, i, notas[7] = {100, 50, 20, 10, 5, 2, 1}, quantidade
-    escreva("Digite o Valor: ")
-    leia(N)
-    escreva(N, "\n")
-    escreva("Quantidade de Notas: ")
-    leia(100)
-    escreva("Quantidade de Notas: ")
-    leia(50)
-    escreva("Quantidade de Notas: ")
-    leia(20)
-    escreva("Quantidade de Notas: ")
-    leia(5)
-    escreva("Quantidade de Notas: ")
-    leia(2)
-    escreva("Quantidade de Notas: ")
-    leia(1)
-    quantidade = N / notas[i]
-    escreva(quantidade, " nota(s) de R$ ", notas[i], ",00\n")
-    N = N % notas[i]
-
+  inteiro valor, notas100, notas50, notas20, notas10, notas5, notas2, notas1 
+  escreva("Digite o valor: ")
+  leia(valor)
+  notas100 = valor/100
+  valor = valor % 100
+  escreva(notas100 , " Notas de 100 ", "\n")
+  notas50 = valor/50
+  valor = valor % 50
+  escreva(notas50 , " Notas de 50 ", "\n")
+  notas20 = valor/20
+  valor = valor % 20
+  escreva(notas20 , " Notas de 20 ", "\n")
+  notas10 = valor/10
+  valor = valor % 10
+  escreva(notas10 , " Notas de 10 ", "\n")
+  notas5 = valor/5
+  valor = valor % 5
+  escreva(notas5 , " Notas de 5 ", "\n")
+  notas2 = valor/2
+  valor = valor % 2
+  escreva(notas2 , " Notas de 2 ", "\n")
+  notas1 = valor/1
+  valor = valor % 1
+  escreva(notas1 , " Notas de 1 ", "\n")
     
 
 
