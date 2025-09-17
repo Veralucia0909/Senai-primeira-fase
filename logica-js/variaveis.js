@@ -16,7 +16,7 @@ const idade = 35  //number
 const feminino = true  //boolean
 
 //variavel array
-const frutas = ["laranja", "maçã", "banana"]
+const frutas = ["laranja","maçã","banana"]
 
 console.log(frutas[0])
 
