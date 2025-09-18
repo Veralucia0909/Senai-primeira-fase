@@ -1,9 +1,11 @@
-let idade
-idade = Number( prompt("Qual a sua idade: "))
+// Verificando a idade: Peça ao usuário sua idade e,
+// em seguida, exiba uma mensagem que diga se ele é maior de idade ou menor de idade.
+
+let idade = ( prompt("Qual a sua idade: "))
 if(idade >= 18){ 
- console.log("Maior de idade")  
+ alert("Maior de idade!")  
 }else{
- console.log("Menor de idade")  
+ alert("Menor de idade")  
 
 }
  
