@@ -20,7 +20,6 @@ const alunosDoSenai = [
 ]
 // console.log(alunosDoSenai)
 // console.log(alunosDoSenai[1].nome)
-    console.log(alunosDoSenai[2].nome, )
-
-
+ console.log(`Meu nome é ${alunosDoSenai[2].nome} ,meu email é ${alunosDoSenai[2].email} 
+    ,minha matricula é ${alunosDoSenai[2].matricula} ,minha idade é ${alunosDoSenai[2].idade}`)
 
