@@ -2,7 +2,7 @@
 // e verifique se ele é elegível para votar (idade mínima de 16 anos).
 
 
-let idade = prompt("Qual a sua idade: ")
+let idade = prompt("Digite a sua idade: ")
 if(idade >= 16){ 
  alert("Elegivel para votar")  
 }else{
