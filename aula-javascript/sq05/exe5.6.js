@@ -9,13 +9,13 @@
 // - "Supimpa!", se pontuação > 100 e pontuação <= 200
 // - MITOU!, se pontuação > 200
 
-let pontuação = Number(prompt("Digite a pontuação: "));
+let pontuação = Number(prompt("Digite sua pontuação: "))
 if (pontuação <=10) {
-    alert("Deu ruim");
+    alert("Deu ruim")
 } else if (pontuação >=10 && pontuação <= 100) {
     alert("tente não erra na proxima");
 } else if (pontuação > 100 && pontuação <= 200) {  
-    alert("SUPIMBA");
+    alert("SUPIMBA")
  } else if (pontuação > 200) {
-    alert("MITOU");
+    alert("MITOU")
 }

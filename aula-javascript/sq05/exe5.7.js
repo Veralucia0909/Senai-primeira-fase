@@ -30,11 +30,18 @@ let multa = 150;
 
 let valorTotal = valor - desconto1 - desconto2 + multa;
 
-alert("Dias: " + dias);
-alert("Valor bruto: R$" + valor.toFixed(2));
-alert("Desconto emocional (10%): R$" + desconto1.toFixed(2));
-alert("Desconto carteirinha (15%): R$" + desconto2.toFixed(2));
-alert("Multa: R$" + multa.toFixed(2));
-alert("Valor final a pagar: R$" + valorTotal.toFixed(2));
-  
+// alert("Dias: " + dias);
+// alert("Valor bruto: R$" + valor.toFixed(2));
+// alert("Desconto emocional (10%): R$" + desconto1.toFixed(2));
+// alert("Desconto carteirinha (15%): R$" + desconto2.toFixed(2));
+// alert("Multa: R$" + multa.toFixed(2));
+// alert("Valor final a pagar: R$" + valorTotal.toFixed(2));
+
+alert("Número de dias: " + dias +
+  "\nValor bruto: R$" + valor.toFixed(2) +
+  "\nDesconto emocional (10%): R$" + desconto1.toFixed(2) +
+  "\nDesconto carteirinha (15%): R$" + desconto2.toFixed(2) +
+  "\nMulta: R$" + multa.toFixed(2) +
+  "\nValor final a pagar: R$" + valorTotal.toFixed(2))
+
 
