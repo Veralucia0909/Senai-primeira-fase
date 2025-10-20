@@ -2,7 +2,9 @@
 
 let soma = 0;
 
-for(i = 1; i <= 10; i++)[
+for(i = 1; i <= 10; i++){
     soma += 1/i;
-    alert("O valor em série 1/2 +...1/10 é", soma);
-]
+   
+}
+
+ alert("O valor em série é", + soma);

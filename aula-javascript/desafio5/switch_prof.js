@@ -16,19 +16,21 @@
 // apresente uma mensagem padrão qualquer (que faça jus a situação)
 
 
-let dia = 1;
+let dia = 2;
 
 switch (dia) {
     case 1:
         console.log("Domingo");
         break;
-    case 2:
-        console.log("Segunda-feira");
+        case 2:
+        console.log("Segunda");
         break;
     default:
         console.log("Opção inválida");
         break;
 }
+
+
 
 
 
