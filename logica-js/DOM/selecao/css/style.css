@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: #AAA;
+
+}
+
+nav{
+    background-color: #fff;
+}
+main{
+    background-color: #ccc;
+}
+
+footer{
+    background-color: #777;
+}
