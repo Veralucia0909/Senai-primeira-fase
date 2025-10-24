@@ -1,0 +1,12 @@
+button{
+
+    background-color: rgb(23, 43, 224);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#btCadastrar{
+    color: aqua;
+}
