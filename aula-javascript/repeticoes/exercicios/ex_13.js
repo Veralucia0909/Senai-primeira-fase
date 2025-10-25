@@ -1,13 +1,2 @@
-// let numeros = [5, 8, 10, 7, 9]; // lista de números
-
-let soma = 0;
-for(let i= 0; i < numeros.length; i++){
-    soma += numeros[i];
-}
-
-let media = soma / numemeros.length;
-console.log("A media dos numeros é:" + media);
-
-
-
-
+429: Too Many Requests
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).

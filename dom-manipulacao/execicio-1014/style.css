@@ -1,19 +1,45 @@
-button {
-  margin-top: 15px;
-  padding: 8px 15px;
-  background-color: #007bff;
-  color: rgb(160, 23, 23);
-  border: none;
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: #0e5eae;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #dcdc19;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 button {
-  background-color: #0056b3;
+  background-color: #007bff;
+  color: #dcdc19;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c6ace;
+  font-weight: bold;
 }
 
 #resultadoConsumo {
   margin-top: 20px;
+  font-size: 18px;
+  color: #dcdc19;
   font-weight: bold;
-  color: #333;
 }

@@ -1,11 +1,2 @@
-// Calcule o fatorial de um numero dado
-
-let numero = 2; 
-let fatorial = 1;
-
-for (let i = 1; i <= numero; i++) {
-    fatorial *= i; // multiplica o valor atual de fatorial por i
-}
-
-console.log("O fatorial de", numero, "é", fatorial);
-
+429: Too Many Requests
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).

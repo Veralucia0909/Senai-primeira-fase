@@ -1,12 +1,2 @@
-// Imprima os numeros de 1 a 10 em ordem crescernte, depois em ordem descrescente
-
-for(let i = 1; i <=10; i++){
-    alert(i);
-
-}
-
-    for(let i = 10; i >=1; i--){
-        alert(i);
-
-
-}
+429: Too Many Requests
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).

@@ -1,12 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: #0e5eae;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #dcdc19;
+}
+
 button{
 
     background-color: rgb(23, 43, 224);
-    color: aliceblue;
+    color: #dcdc19;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
 
 }
 
 #btCadastrar{
-    color: aqua;
+    color: #dcdc19;
+    font-weight: bold;
 }
