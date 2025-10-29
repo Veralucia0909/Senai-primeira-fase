@@ -1,19 +1,86 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
-header{
-    background-color: #AAA;
+body{
+    background: #EEE;
 
 }
+
+header{
+    background-color: #ccc;
+    /* padding-left: 20px; /* DENTRO*/
+    /* margin-bottom: 20px; */ /*FORA*/ 
+    padding: 20px 25 px;
+    margin: 10px 0 0 0; /*TODO,R,B,L*/
+
+
+}
+
+a{
+    color: #FFF;
+
+}
+ 
+    .container{
+     display: flex;
+}
+
 
 nav{
-    background-color: #fff;
+    background-color:#777;
+    padding: 15px 0;
+
+    ul{
+       display: flex;
+       list-style: none;
+       justify-content: space-around; 
+
+       li{
+        a{
+            color: red;
+            text-decoration: none;
+            background: #fff;
+            padding: 2px;
+            transition: all ease-out 0.5s;
+
+            &:hover{
+                color: #fff;
+                background: red;
+
+            }
+
+
+        }
+       }
+
+
+    }
+
 }
+
+/* nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+} */
 main{
     background-color: #ccc;
+
+    section{
+        padding: 20px;
+        &#esporte{
+       
+
+        }
+
+         &#economia{
+           
+
+    }
 }
 
 footer{

@@ -1,29 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  background: #cc0b0b; /* fundo vermelho */
+  background: #cc0b75; /* fundo rosa */
   text-align: center;
   padding: 20px;
-  color: #fff; /* cor padrão do texto */
+  color: #d8db0b; /* cor padrão do texto */
 }
 
 h1 {
-  color: #fff;
+  color: #9ed817;
 }
 
 .container {
-  background: #3b0b0b; /* fundo mais escuro e legível */
+  .container {
+  display: block;
+  margin: 10px auto; /* centraliza horizontalmente */
+  width: fit-content; /* ajusta o tamanho ao conteúdo */
+  background: #0bca24; /* fundo mais escuro e legível */
   border-radius: 8px;
   padding: 20px;
   display: inline-block;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   margin-top: 10px;
-  color: #fff; /* texto branco dentro do container */
+  color: #9ed817; /* texto dentro do container */
 }
 
 label {
   display: block;
   margin-top: 10px;
-  color: #f5f5f5; /* texto claro */
+  color:#9ed817; /* texto claro */
   font-weight: bold;
 }
 
@@ -32,7 +36,7 @@ input {
   max-width: 200px;
   padding: 5px;
   margin-top: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid #9ed817;
   border-radius: 5px;
 }
 
@@ -41,18 +45,21 @@ button {
   padding: 8px 15px;
   border: none;
   background: #e63946; /* vermelho moderno */
-  color: white; /* texto branco */
+  color: #9ed817; /* texto branco */
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 button:hover {
+  color: #d8db0b;
   background: #b71c1c; /* vermelho mais escuro ao passar o mouse */
 }
 
 #resultado {
   margin-top: 15px;
   font-weight: bold;
-  color: #fff;
+  color: #d8db0b;
+  
+
 }
