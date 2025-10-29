@@ -3,7 +3,7 @@ body {
   background: #cc0b75; /* fundo rosa */
   text-align: center;
   padding: 20px;
-  color: #d8db0b; /* cor padrão do texto */
+  color: #9ed817; /* cor padrão do texto */
 }
 
 h1 {
@@ -44,22 +44,24 @@ button {
   margin-top: 15px;
   padding: 8px 15px;
   border: none;
-  background: #e63946; /* vermelho moderno */
+  background: #5be70a; /*  moderno */
   color: #9ed817; /* texto branco */
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: all ease-out  0.3s ase;
 }
 
 button:hover {
-  color: #d8db0b;
-  background: #b71c1c; /* vermelho mais escuro ao passar o mouse */
+  background: linear-gradient(45deg, #ffcc00, #ff0066); /* inverte o gradiente */
+  color: #0b0b0b; /* muda a cor do texto ao passar o mouse */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  transform: scale(1.05); /* efeito de leve aumento */
+  transition: all 0.3s ease; /* transição suave */
 }
 
 #resultado {
   margin-top: 15px;
   font-weight: bold;
   color: #d8db0b;
-  
-
+  text-shadow: 0 0 8px rgba(78, 10, 205, 0.8); /* brilho no texto */
 }

@@ -6,14 +6,14 @@ function verificar() {
   const m10 = parseInt(document.getElementById("m10").value) || 0;
   const m5 = parseInt(document.getElementById("m5").value) || 0;
 
-  const total = (m1 * 1) + (m50 * 0.5) + (m25 * 0.25) + (m10 * 0.1) + (m5 * 0.05);
-  const res = document.getElementById("resultado");
+  const total = (m1 * 1.0) + (m50 * 0.5) + (m25 * 0.25) + (m10 * 0.1) + (m5 * 0.05);
+  const resultado = document.getElementById('resultado');
 
   if (total >= produto) {
-    res.textContent = ` Você tem R$ ${total.toFixed(2)}  dá para comprar!`;
-    res.style.color = "green";
+    resultado.textContent = `Você tem R$ ${total.toFixed(2)}  dá para comprar!`;
+    
   } else {
-    res.textContent = `😢 Você tem R$ ${total.toFixed(2)} falta R$ ${(produto - total).toFixed(2)}.`;
-    res.style.color = "red";
+    resultado.textContent = `😢 Você tem R$ ${total.toFixed(2)} falta R$ ${(produto - total).toFixed(2)}.`;
+  
   }
 }
