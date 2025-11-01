@@ -7,13 +7,13 @@ function verificar() {
   const m5 = parseInt(document.getElementById("m5").value) || 0;
 
   const total = (m1 * 1.0) + (m50 * 0.5) + (m25 * 0.25) + (m10 * 0.1) + (m5 * 0.05);
+
   const resultado = document.getElementById('resultado');
+  resultado.style.fontSize = '20px';
 
   if (total >= produto) {
-    resultado.textContent = `Você tem R$ ${total.toFixed(2)}  dá para comprar!`;
-    
+    resultado.textContent = `Você tem R$ ${total.toFixed(2)} — dá para comprar! 😃`;
   } else {
-    resultado.textContent = `😢 Você tem R$ ${total.toFixed(2)} falta R$ ${(produto - total).toFixed(2)}.`;
-  
+    resultado.textContent = `😢 Você tem R$ ${total.toFixed(2)} — falta R$ ${(produto - total).toFixed(2)}.`;
   }
 }
