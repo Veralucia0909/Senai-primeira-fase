@@ -15,7 +15,7 @@ function cadastrarVera(){
     let nomeLido = document.getElementById('inputNome').value
     let alturaLida = Number(document.getElementById('inputAltura').value)
 
-    const dino = {
+    const Vera = {
         nome: nomeLido,
         altura: alturaLida
     }

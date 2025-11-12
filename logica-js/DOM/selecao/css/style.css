@@ -117,4 +117,33 @@ main {
 
     footer {
         background-color: #777;
+        padding: 15px 0;
+        color: #FFF;
+        text-align: center;
     }
+
+    /* arquivo serviços */
+
+    .show{
+        display: block;
+    }
+
+
+    .hide{
+        display: none;
+    }
+     
+
+    button{
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        &#show{
+            background: fuchsia;
+        }
+     &#hide{
+        background: blue;
+     }
+    
+    }
+
