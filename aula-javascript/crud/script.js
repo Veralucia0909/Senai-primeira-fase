@@ -5,13 +5,14 @@
 //     altura: '6'
 // }
 
-const mulherMaravilha = []
+const dinossauros = []
+// let dinossauros = []
 
 // dinossauros.push(dinossauro)
 
 // document.getElementById('dino').innerHTML = `Nome: ${dinossauros[0].nome}; Altura: ${dinossauros[0].altura}`
 
-function cadastrarVera(){
+function cadastrarDino(){
     let nomeLido = document.getElementById('inputNome').value
     let alturaLida = Number(document.getElementById('inputAltura').value)
 
@@ -19,12 +20,14 @@ function cadastrarVera(){
         nome: nomeLido,
         altura: alturaLida
     }
-    mulherMaravilha.push(Vera)
+    dinossauros.push(dino)
 
-    console.log(mulherMaravilha);
+    console.log(dinossauros);
     
     limparForm()
-    alert("Vera cadastrado com sucesso!")
+    alert("Dino cadastrado com sucesso!")
+
+    mostrarTodosDinos()
     
 }
 
@@ -34,4 +37,37 @@ function limparForm(){
     // document.getElementById('inputPesoOuMassa').value = ''
     
     document.getElementById('inputNome').focus()
+}
+
+function mostrarTodosDinos(){
+    document.getElementById('listaDinos').innerHTML = '' 
+    for(let i=0; i<dinossauros.length ; i++){
+        // console.log(i);
+        document.getElementById('listaDinos').innerHTML += `
+            <div class='card'>
+                <h3>${dinossauros[i].nome} </h3>
+                <p>Altura: ${dinossauros[i].altura}</p>
+            </div>
+        `
+        
+    }
+}
+
+function lancarMeteoro(){
+    dinossauros.length = 0
+    mostrarTodosDinos()
+}
+
+function navegarParaDois(){
+    // alert('Tchau')
+
+    let nome = prompt("User:")
+    let senha = prompt("Senha: ")
+
+    if(nome == "admin" && senha == "admin"){
+        window.location.href = 'dois.html'
+    }else{
+        alert("Você está tentando invadir, a polícia tá chegando!!")
+    }
+
 }

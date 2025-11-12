@@ -138,6 +138,7 @@ main {
         padding: 10px;
         border: none;
         cursor: pointer;
+        color: #ccc;
         &#show{
             background: fuchsia;
         }

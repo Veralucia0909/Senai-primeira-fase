@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #cc0b75; /* fundo rosa */
+  text-align: center;
+  padding: 20px;
+  color: #9ed817; /* cor padrão do texto */
+}
+
+h1 {
+  color: #9ed817;
+}
+
+.container {
+  .container {
+  display: block;
+  margin: 10px auto; /* centraliza horizontalmente */
+  width: fit-content; /* ajusta o tamanho ao conteúdo */
+  background: #0bca24; /* fundo mais escuro e legível */
+  border-radius: 8px;
+  padding: 20px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  color: #9ed817; /* texto dentro do container */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color:#9ed817; /* texto claro */
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  max-width: 200px;
+  padding: 5px;
+  margin-top: 3px;
+  border: 1px solid #9ed817;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  background: #5be70a; /*  moderno */
+  color: #9ed817; /* texto branco */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-out  0.3s ase;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ffcc00, #ff0066); /* inverte o gradiente */
+  color: #0b0b0b; /* muda a cor do texto ao passar o mouse */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  transform: scale(1.05); /* efeito de leve aumento */
+  transition: all 0.3s ease; /* transição suave */
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #d8db0b;
+  text-shadow: 0 0 8px rgba(78, 10, 205, 0.8); /* brilho no texto */
+}
