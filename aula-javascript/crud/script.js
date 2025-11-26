@@ -16,14 +16,20 @@ function cadastrarDino(){
     let nomeLido = document.getElementById('inputNome').value
     let alturaLida = Number(document.getElementById('inputAltura').value)
 
-    const Vera = {
+    const dino = {
         nome: nomeLido,
         altura: alturaLida
     }
     dinossauros.push(dino)
 
     console.log(dinossauros);
+
+    let dinossaurosTexto = JSON.stringify(dinossauros)
+    localStorage.setItem("dinossauros", dinossaurosTexto ) // salvar os dados do cadastro//
     
+     localStorage.setItem("dinossauros", JSON   dinossaurosTexto )
+
+
     limparForm()
     alert("Dino cadastrado com sucesso!")
 
