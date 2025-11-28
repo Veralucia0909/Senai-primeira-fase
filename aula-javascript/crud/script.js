@@ -1,79 +1,47 @@
-// teste crud
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-// const dinossauro = {
-//     nome: 'Rex',
-//     altura: '6'
-// }
+    gap: 10px;
 
-const dinossauros = []
-// let dinossauros = []
-
-// dinossauros.push(dinossauro)
-
-// document.getElementById('dino').innerHTML = `Nome: ${dinossauros[0].nome}; Altura: ${dinossauros[0].altura}`
-
-function cadastrarDino(){
-    let nomeLido = document.getElementById('inputNome').value
-    let alturaLida = Number(document.getElementById('inputAltura').value)
-
-    const dino = {
-        nome: nomeLido,
-        altura: alturaLida
-    }
-    dinossauros.push(dino)
-
-    console.log(dinossauros);
-
-    let dinossaurosTexto = JSON.stringify(dinossauros)
-    localStorage.setItem("dinossauros", dinossaurosTexto ) // salvar os dados do cadastro//
-    
-     localStorage.setItem("dinossauros", JSON   dinossaurosTexto )
-
-
-    limparForm()
-    alert("Dino cadastrado com sucesso!")
-
-    mostrarTodosDinos()
+    background-color: aqua;
+    padding: 10px;
     
 }
 
-function limparForm(){
-    document.getElementById('inputNome').value = ''
-    document.getElementById('inputAltura').value = ''
-    // document.getElementById('inputPesoOuMassa').value = ''
-    
-    document.getElementById('inputNome').focus()
+button:hover{
+    /* background-color: blue; */
+    scale: 1.05;
 }
 
-function mostrarTodosDinos(){
-    document.getElementById('listaDinos').innerHTML = '' 
-    for(let i=0; i<dinossauros.length ; i++){
-        // console.log(i);
-        document.getElementById('listaDinos').innerHTML += `
-            <div class='card'>
-                <h3>${dinossauros[i].nome} </h3>
-                <p>Altura: ${dinossauros[i].altura}</p>
-            </div>
-        `
-        
-    }
+#painelDinos{
+    margin-top: 25px;
+    background-color: aquamarine;
+    min-height: 30px;
 }
 
-function lancarMeteoro(){
-    dinossauros.length = 0
-    mostrarTodosDinos()
+.card{
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-function navegarParaDois(){
-    // alert('Tchau')
+#listaDinos{
+    background-color: rgba(137, 43, 226, 0.328);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
-    let nome = prompt("User:")
-    let senha = prompt("Senha: ")
+    flex-wrap: wrap;
 
-    if(nome == "admin" && senha == "admin"){
-        window.location.href = 'dois.html'
-    }else{
-        alert("Você está tentando invadir, a polícia tá chegando!!")
-    }
-
+    min-height: 500px;
 }
