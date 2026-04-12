@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desafio.css">
+    <title>Desafio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Desafio</h1>
+    </header>
+    <nav>
+        <div class="inputcontainer">
+            <label for="Produto">Digite o valor do produto: </label>
+            <input id="Produto" type="text">
+            <label for="moeda1">Digite a quantidade de moedas de 1real: </label>
+            <input id="moeda1" type="text">
+            <label for="moeda50">Digite a quantidade de moedas de 50centavos: </label>
+            <input id="moeda50" type="text">
+            <label for="moeda25">Digite a quantidade de moedas de 25centavos: </label>
+            <input id="moeda25" type="text">
+            <label for="moeda10">Digite a quantidade de moedas de 10centavos: </label>
+            <input id="moeda10" type="text">
+            <label for="moeda5">Digite a quantidade de moedas de 5centavos: </label>
+            <input id="moeda5" type="text">
+        </div>
+        <button onclick="Calculo()" id="calculo">Ver orçamento</button>
+    </nav>
+    <div id="Resposta"></div>
+    <div id="valor_total"></div>
+    <script src="desafio.js"></script>
+</body>
+
+</html>
