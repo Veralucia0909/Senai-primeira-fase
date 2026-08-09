@@ -1,6 +1,6 @@
 # Senai-primeira-fase
 
-Este repositório contém uma coleção de exercícios, projetos e materiais de apoio desenvolvidos durante a primeira fase do curso no SENAI. O objetivo deste projeto é registrar a evolução do aprendizado em lógica de programação e desenvolvimento web.
+Este repositório contém uma coleção de exercícios, projetos e materiais de apoio desenvolvidos durante o 1 semestre do curso no SENAI. O objetivo deste projeto é registrar a evolução do aprendizado em lógica de programação e desenvolvimento web.
 
 ## 📁 Estrutura do Repositório
 
